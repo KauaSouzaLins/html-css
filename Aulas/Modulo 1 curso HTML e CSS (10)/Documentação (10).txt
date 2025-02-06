@@ -1,0 +1,95 @@
+Documentação (10)
+
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 10 aula 1-------
+
+links são a maneira com que as pessoas vão te achar, o google hoje é o segundo maior buscador do mundo, com o primeiro sendo o youtube, por isso é bom se ter um canal no youtube se você tiver uma marca.
+
+Links são importantes para você ser visto e achado
+
+SEO= search engine otimization, otimização para mecanismo de busca, você vai otimizar o seu HTML para o google te encontrar
+
+o CSS serve o HTML
+
+
+Link externo: aponta para um site que não é nosso
+
+A= ancora/anchor
+
+HREF= referencia a hypertexto/ hypertext references
+
+
+para você não deixar seu site sobresposto por outro quando escrever um link externo, use target="_blank" para fazer abrir outra janela em vez de fechar a sua totalmente e também adicionar o rel= external para mostrar pro navegador que é um link externo
+
+target="_blank"
+
+rel="external"
+
+
+diferentes parâmetros para target:
+
+_blank vai abrir o link em uma nova janela em branco
+self vai abrir o link na janela ou frame atual (padrão)
+top vai desfazer todos os frames e abrir o destino no navegador completo
+_parent similar ao uso do top em uma referência à janela mãe
+nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+
+diferentes parâmetros para rel:
+
+next indica que o link é para a próxima parte do documento atual 
+prev indica que o link é para a parte anterior do documento atual
+author indica que é um link para o site do autor do artigo atual 
+external indica que é um link para outro site que não faz parte do site
+
+
+
+------Capitulo 10 aula 2-----
+
+Para criar um link interno, basta você usar o mesmo método do link já usado antes, e clicar em crtl + espaço para achar a outra pagina, que você tem que criar um outro arquivo HTML, para isso ela precisa estar nas mesma pagina da primeira pagina
+
+Adiciona-se rel=next, para mostrar que esse link é a pagina subsequente a essa
+
+e adiciona-se rel=prev (de previous) para indicar que o link é uma pagina anterior a essa
+
+para sites em que você não da um aval/aprovação, você usa o rel=nofollow, usado muito em sites de patriocinio, pode existir clientes que dizem para não colocar link nofollow, ai seria dofollow
+
+
+Para criar links de paginas em outras pasta, basta usar o comando ctrl + espaço e você vai achar la na pasta que o comando mostrar
+
+para dizer que essas paginas são do próprio site é so colocar target=_self e assim ele não vai abrir outra pagina e so continuar ali naquela aba
+
+em paginas em outras paginas para voltar é preciso usar ../, ./ é a própria pagina que esta, e ../ é a pagina anterior
+
+
+
+------Capitulo 10 aula 3------
+
+# significa um link vazio
+
+de resto é o mesmo de procurar o arquivo dentro da tag A com ctrl + espaço, nisso vai depender do navegador, onde uns vai funcionar o parâmetro download="arquivo que você quer baixar"
+
+
+para verificar os tipos de types para cada arquivo atualizado é so ir no site 
+
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+
+Aqui vão alguns media types bem usados no nosso dia-a-dia:
+
+application/zip
+video/mp4
+audio/mpeg
+text/html
+video/H264
+font/ttf
+text/css
+video/JPEG
+image/jpeg
+text/javascript
+audio/aac
+image/png
+
+
+clicando em crtl + f, você abre um pesquisador de palavras da pagina

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(80, 80, 80);
+            
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+            border-radius: 0px 15px 15px 0px;
+            box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.425);
+        }
+
+        header > h1{
+            background-color: rgb(219, 219, 219);
+            padding-left: 10px;
+        }
+
+        
+        nav{
+            background-color: rgb(71, 71, 71);
+            box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.425);
+        }
+
+        nav > a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-weight: bolder;
+            margin-right: 20px;
+            margin-left: 10px;
+                        
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+
+        mark{
+            background-color: rgb(71, 71, 71);
+            color: white;
+            padding: 2px 5px;
+        }
+
+        article{
+            background-color: rgb(179, 179, 179);
+            padding: 2px 2px 2px 10px;
+            text-align: justify;
+        }
+
+        article:hover{
+            background-color: rgb(156, 156, 156);
+        }
+
+        footer{
+            background-color: black;            
+            color: white;
+            text-align: center;
+            margin: 10px 0px;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px
+        }
+
+        div#bola{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto 10px auto;
+            border-radius: 50%;
+        }
+
+        div#bola > p{
+            text-align:center;
+        }
+
+        /* a#unico{
+            display: block;
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+            margin-top: 30px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        } */
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link</a></li>
+            <a href="#">Link</a></li>
+            <a href="#">Link</a></li>
+            <a href="#">Link</a></li>
+            <a href="#">Link</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Titulo artigo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorum non cum, laudantium vitae fugit corporis, natus nisi commodi veniam cumque magni? Facere quos maxime eos iusto dignissimos ipsam perspiciatis!</p>
+                <aside>
+                    <p><mark>Artigo feito por José Torres</mark></p>
+                </aside>
+            </article> <br>
+                
+            <article>
+                <h2>Titulo artigo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorum non cum, laudantium vitae fugit corporis, natus nisi commodi veniam cumque magni? Facere quos maxime eos iusto dignissimos ipsam perspiciatis!</p>
+                <aside>
+                    <p><mark>Artigo feito por Torres José</mark></p>
+                </aside>
+            </article>
+        </section>
+        <!-- <section>
+            <a href="caixa01.html" id="unico">Opção 1</a>
+        </section> -->
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+    
+    <div id="bola">
+        <p>olá</p>
+    </div>
+
+</body>
+</html>

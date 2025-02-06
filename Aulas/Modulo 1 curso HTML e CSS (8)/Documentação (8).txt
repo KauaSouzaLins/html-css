@@ -1,0 +1,89 @@
+Documentação (8)
+
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 8 aula 1-------
+
+
+Semantica: o significado tem mais valor do que a formaf
+
+w3.org: mostra as tags que se tornaram obsoletas em html, ficar sempre de olho em tags que podem ter ficado obsoletas
+
+tags em vermelho são tags que não são mais utilizadas.
+
+O HTML agora é focando em tags semânticas, ou que priorizam mais o significado, o HTML5 é conhecido também como HTML semântico
+
+
+Adress: enfatiza que é um endereço
+
+cuidado com tags obsoletas, podem haver algumas que não são mais utilizadas e não fiquem marcando isso
+
+
+
+------Capitulo 8 aula 2-------
+
+tag B deixa as palavras em negrito. é uma tag não semântica
+
+a tag Strong faz a mesma coisa, mas ela é uma tag semântica
+
+tags semânticas parecem ser as tags que falam o que elas mesmo fazer &lt = letter tahn ou <, Strong deixando forte ou em negrito a frase
+
+
+ctrl + shift + p -- + abb  ou  wrap of abbreviation
+
+serve para você colocar uma tag em um texto já feito, sem ter que mudar ele de posição e os krl
+
+
+da pra colocar uma tag em cima de outra tag
+
+a tag I serve para deixar em itálico mas não é semântica
+
+já a EM faz o mesmo so que é semântica, significando ênfase
+
+
+
+------Capitulo 8 aula 3-------
+
+A tag MARK marca o texto como um marca texto mesmo
+
+para usar um parâmetro do CSS no html é so criar dentro da tag um style e você vai ter uma gama de parâmetros para usar
+
+um texto marcado, mesmo que tenha sua cor mudado com um style dentro da tag, não vai repassar essas configurações pro próximo texto, ou seja, é preciso criar um style la na cabeça e colocar essas configurações, embaixo de tittle usando chaves {} em vez de =
+
+big esta obsoleto enquanto small não, então é melhor aumentar a fonte no css criando uma marca e small ainda é usável
+
+
+del é um tag pra marca que o texto foi deletado ------ deletado del
+
+ins é uma tag para sublinhar um texto indicando que ele foi inserido depois ----- inserido ins
+
+sup é para marca um texto como subreescrito, ou sendo escrito por cima 
+
+sub é para marca um texto como subescrito, ou sendo escrito por baixo
+
+
+
+------Capitulo 8 aula 4-------
+
+Code serve para deixar a leitura de um código no site mais fácil
+
+mas o Code não deixa totalmente em formato de código, ainda faltando quebrar as linhas, para isso é usad aa tag PRE, que ajeita essas linhas
+
+shift+ tab retira os shift já colocados
+
+Tag Q serve para citações significando Qoutes, ou citações mesmo
+
+para citações mais longas, é utilizado a tag blockquote, e dentro dessa tag você pode criar um parâmetro cite, para referenciar o local de onde você pegou, somente para a parte interna do seu cite, mecanismo de bucas e tals
+
+
+a tag ABBR é para explicar o significado de uma sigla do seu site
+
+
+a tag BDO é simplesmente para inverter o texto para um lado, criando um r ou l, sendo r right to left e l left to right  
+---tag bem inutil---
+
+
+
+Uma tag para aparecer coisas quando você passar o mouse por cima é a ABBR, na parte do tittle você vai escrever
+

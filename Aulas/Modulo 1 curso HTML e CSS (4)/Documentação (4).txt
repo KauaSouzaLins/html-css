@@ -1,0 +1,13 @@
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 4 aula 1-------
+
+tags sempre vão ter a cor azul no código, todas as tags são uma marca.
+
+head: configurações do site
+Body: conteúdo do site
+
+UTF-8: um padrão de configuração que suporta acentos, importante para sites em pt-br
+
+hr= horizontal row, linha horizontal

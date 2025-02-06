@@ -1,0 +1,31 @@
+Documentação (5)
+
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 5 aula 1-------
+
+Parágrafos e quebras de linhas
+
+br = break row, quebra de linha
+
+para fazer aparecer os símbolos < > em um paragrafo real, é preciso usar o &lt; e &gt;
+
+<!-- crtl + k + c para comentar -->
+
+&lt = less tahn   menor que
+
+&gt = greater than   maior que
+
+
+
+------Capitulo 5 aula 1-------
+
+Da para usar o comando break varias vezes para aumentar a quebra de uma linha, mas essa é a maneira errada e vai ser ensinado depois a maneira correta no CSS
+
+para os símbolos tem códigos pré definidos e tem um site para isso, que é o 
+https://www.w3schools.com/charsets/ref_utf_symbols.asp
+
+E para os emojis tem a emojipidea, onde é preciso achar o emoji que quer, ir até o final da tela e pegar o código do emoji. sendo que, pra adicionar no código é preciso começar com:   
+
+"&#x" + o seu código de emoji

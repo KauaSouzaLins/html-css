@@ -1,0 +1,130 @@
+Documentação (11)
+
+Modulo 1 curso HTML e CSS
+
+------Capitulo 11 aula 1-------
+
+foi só a criação das imagens para a próxima aula
+
+
+
+------Capitulo 11 aula 2-------
+
+Imagens dinâmicas
+
+
+tag Picture: vai mostrar uma imagem, mas é possível colocar varias fontes nela
+
+se você fizer um site pouco chamativo e que as pessoas saiam, o google vai começar a divulgar menos seu site e ele vai ser classificado como menos relevante que outros, 
+
+tag source: ela vai ser como um verificador de tamanho de tela, se o tamanho da tela for no máximo taltal, ela vai abrir outra imagem em vez da pré definida, funciona tipo:
+
+para imagens usasse a tag source:media:type
+
+
+se, o tamanho máximo da tela for 1050, troque para a imagem menor tals e tals
+
+
+
+é recomendável colocar o tamanho max 50 pixels maior do que o tamanho da imagem para que consiga criar a barra de scroll na tela
+
+adapte o tamanho das telas para o seu usuário, mesmo que de mais trabalho 
+
+tenha atenção a ordem de imagens também, se você começar com a grande, o source anterior tem que ser a media, e anterior a media tem que ser a pequena
+
+
+
+------Capitulo 11 aula 3-------
+
+Reproduzindo áudios
+
+
+Se você tiver um canal no youtube e ir em youtube studio, biblioteca de áudios você vai ser redirecionados para um site onde, você vai ter uma gama de áudios, todas são gratuitas, mas as com atribuição necessárias é preciso escrever umas linhas para atribuir ao criador oficial, já em não necessárias você pode usar a vontade
+
+para inserir um áudio é so colocar a tag AUDIO e ir em src, colocando o seu áudio, se você utilizar o AUTOPLAY é uma maneira de fazer o áudio tocar automaticamente, e para fazer aparecer um controlador de áudio para parar e rodar o áudio é so usar o parâmetro CONTROLS
+
+Atalho para comentário ctrl + ;
+
+é possível que seu áudio não toque automática quando você entrar no site por o navegador não suportar, para isso é preciso você criar a tag áudio e retirar o src dele, e dentro da tag criar um SOURCE SRC com os possíveis outros áudios que funcionem no navegador, é preciso colocar o tipo deles na tag type, os mais usados são:
+
+mp3: audio/mpeg
+OGG: audio/ogg
+WAV: audio/wav
+
+a ordem também vai fazer diferença aqui, então ele vai testar o primeiro arquivo que você colocar, depois se falhar vai testar o resto
+
+também é possível criar uma mensagem para se o navegador não suportar nenhum áudio, criando um paragrafo embaixo do ultimo source
+
+preload: esse parâmetro tem varias versões
+
+auto-Ele da autoplay no áudio, mas é perigoso, pois, so vai carregar seu site quando o áudio também estiver carregado. então cuidado e sempre coloque um preload pra trocar essa versão
+
+metadata- vai carregar apenas algumas informações do arquivo de áudio
+
+none- vai carregar nada do áudio
+
+
+autoplay: faz o áudio tocar automaticamente, é preciso do preload="auto" para ele funcionar
+
+
+controls: simplesmente deixa disponível para você mexer no áudio e controlar se ele vai rodar ou não
+
+
+loop: faz o áudio ficar em loop, quando acabar recomeça
+
+
+evite arquivos WAV, pois eles são muito pesado e podem atrapalhar a navegação do seu site
+
+
+------Capitulo 11 aula 4-------
+
+Videos
+
+você também pode usar o site pexels para achar vídeos gratuitos
+
+os arquivos mais suportados são os:
+
+mp4
+webm (bem leve mas com qualidade péssima)
+ogv
+
+serve a mesma coisa dos áudios para vídeos, tenha varias versões diferentes
+
+hadbrake
+
+da pra converter o arquivo de vídeo pra uma qualidade menor e ainda converter para um outro tipo de arquivo como os citados acima, cuidado com as qualidades de vídeos pq elas que aumentam o custa da sua hospedagem, acima de 1080p não hospedar no seu site
+
+existem tabelas de compatibilidade de navegadores com tipos de arquivos, tanto de áudio quanto de videos, ficar de olho nisso
+
+No chrome, se você adicionar a tag muted ao vídeo ele funciona com o autoplay
+
+
+
+------Capitulo 11 aula 5-------
+
+Para colocar vídeos é so colocar a tag VIDEOS e colocar no SRC seu arquivo, se estiver muito grande, você pode trocar a largura usando o parâmetro WIDTH, mas ele so altera o tamanho que aparece, não o tamanho do arquivo
+
+da pra adicionar o parâmetro controls também nos vídeos, cada navegador vai ter seu time de controle
+
+E igualmente o áudio, é so colocar dentro da tag VIDEO o SOURCE SRC e você vai poder colocar varias possibilidades de vídeos dentro do seu arquivo
+
+Se você usar o parâmetro POSTER dentro da tag vídeo, você vai conseguir colocar um frame de começo para o vídeo, é recomendável que essa imagem tenha o mesmo tamanho de largura e altura do vídeo.
+
+vídeos hospedados dessa maneira, pela tag vídeo, são muito pesados e vão trazer muito custo de banda na hora la do hospedagem, 
+É PRECISO DEIXA O SEU CLIENTE CIENTE DISTO
+
+
+
+------Capitulo 11 aula 6-------
+
+È possível também colocar vídeos de forma externa so que site de hospedagem já, tipo o youtube, onde ele já tem vídeos hospedados, para colocar vídeos de lá, é simplesmente ir no vídeo que quer, ir em compartilhar e copiar o código que vai aparecer quando você clicar em inserir. Depois é so copiar e colocar no seu site. É bem recomendável até já que se um vídeo seu no site estiver ligado ao youtube o google vai dar mais valor.
+
+O youtube não serve se você quer deixar os vídeos privados pra certos usuários do site, para isso existe o Vimeo, que funciona igual o youtube so que ele bloqueia lá se você pedir
+
+O Vimeo tem a qualidade de vídeos muito boa, mas em contrapartida, seu algoritmo é bem ruim então pode ser mais demorado de carregar dependendo da sua internet
+
+
+O vimeo tem essa vantagem de você poder assinar e colocar vídeos la dentro também, para que não seja qualquer pessoa que consiga acessar, enquanto o youtube não tem essa função mas você pode colocar mais tranquilamente o vídeo. Vai sempre depender do que seu cliente quiser, se ele quer algo mais privado, se pa o vimeo seja melhor, se quer algo mais fé e não liga tanto para privacidade, vídeo no youtube
+
+
+text-aligh= para alinhar o vídeo ou o texto

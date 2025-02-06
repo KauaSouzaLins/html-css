@@ -1,0 +1,142 @@
+Documentação (16)
+
+Modulo 2 curso HTML e CSS
+
+------Capitulo 16 aula 1-------
+
+Modelo de Caixas
+
+É um conjunto que ajuda a organizar o design do seu site, com isso o documento HTML é dividido em caixas, e você pode colocar uma caixa dentro de outra caixa dentro de outra caixa.
+
+Quando você coloca um elemento dentro do outro é chamado de ANINHAMENTO
+
+
+Todo elemento visível dentro da pagina é uma caixa, a altura dessa caixa é definida pela HEIGHT, e a largura é medida pela WIDTH
+
+É possível traçar uma linha em volta desse conteúdo ou caixa, e isso é chamado de BORDER
+
+PADDING, é o mesmo que você dar um acolchoamento/preenchimento ou engorda um pouco aquele conteúdo, seria pra você criar margens entre o conteúdo e as caixas 
+
+E a distancia dos elementos de fora é chamado de MARGIN, pra ele não ficar grudado externamente com ninguém
+
+tem também o OUTLINE, que é uma linha em volta do elemento so que na parte de fora dele
+
+
+Tipos de Caixas:
+
+box-level: Um box level se tiver um conteúdo faltando, tipo um paragrafo que não se completou, ele vai pular linha de baixo, pegando todo espaço da tela nisso no eixo x, e continuar o conteúdo depois de pular. DIV é um exemplo de BOX-LEVEL. Mais exemplos:
+
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+
+inline-level: já a inline level continua na mesma linha do conteúdo, pulando so a parte em que ela vai ficar e caber, e depois vai continuar o conteúdo, ele ocupa so o tamanho que ele precisa. SPAN é um exemplo de INLINE-LEVEL. Mais exemplos:
+
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>
+
+
+box level é quando você quer que o elemento pegue aquela linha inteira, e inline level é quando você quer que o elemento pegue so aquela partezinha na linha. Apartir desses exemplos da pra entender, com os títulos, H1, H2, pegando uma linha todo, e elementos com a tag STRONG, pegando so aquela parte ali que você selecionou.
+
+
+
+------Capitulo 16 aula 2-------
+
+No google é possível ver a caixas do seu documento HTML simplesmente clicando em inspecionar e indo em elementos, você pode clicar em cada tag do documento para ver suas configurações
+
+As tags em HTMl são sempre pré configuradas pelo USER-AGENT, que é o seu próprio navegador configurando, mesmo sem você ter feito nenhuma alteração
+
+
+DISPLAY: BLOCK, vai fazer o seu elemento virar uma BOX-LEVEL
+DISPLAY: INLINE-BLOCK, deixa o elemento sendo um INLINE-LEVEL
+
+
+Você pode mexer nas configurações do HTML simplesmente clicando nisso de inspecionar e ver o elemento, ele não muda o sie em si mas sua visualização, é dai que as pessoas mexem em sites.
+  
+
+BORDER-WIDTH: 200px, largura da borda que você vai adicionar
+BORDER-STYLE: SOLID, para o normal de linhas, DASHED para linhas tracejadas, DOTTED para linhas pontilhadas, DOUBLE para linhas duplas e GROOVE que é uma margem meio 3D
+BORDER-COLOR: para mudar sua cor
+
+Essas tags da pra usar uma SHORTHAND, tanto para essas quanto para os do OUTLINE, que são na mesma ordem e a tag é simplesmente BORDER e OUTLINE, na ordem de WIDTH, STYLE, COLOR.
+
+PADDING e a MARGIN também tem uma short hand, sendo a ordem dos dois TOP, RIGHT, BOTTOM, LEFT. é no sentido do relógio por isso esses tamanhos doidos. DICA: se você tiver um padding ou margin com o mesmo tamanho em todas as direções, você pode simplesmente informar simplesmente o único valor, tipo 10px, 10px, 10px, 10px, pode informar so 10px unicamente.
+
+
+
+------Capitulo 16 aula 3-------
+
+Para fazer a BOX ficar exatamente no meio, basta usar o MARGIN: AUTO;
+
+O OUTLINE é um tracejado que pode até passar da margem, mas normalmente fica sempre dentro da margem
+
+Para você centralizar uma margem com valores em outras opartes, tipo emcima e em baixo, você pode colocar nos valores que quer auto e nos outros deixar o tamanho normal definido, tipo top: 10px, right: auto, bottom: 10px left: auto, pra deixar no meio da direita a esquerda
+
+
+
+------Capitulo 16 aula 4-------
+
+Hoje em dia os documentos HTML não usam mais varias divs pra definir tal tal parte do código, e existem agora tags para definir cada parte deles, sendo assim um conteúdo mais semantico, sendo elas:
+
+HEADER: cabeçalho
+MAIN:   conteúdo principal
+FOOTER: roda pé (conteúdos abaixo do site como links extras e tals)
+
+a tag SECTION, serve para criar seções dentro do seu site, muitas vezes usadas na parte MAIN do site.
+
+ARTICLE para referenciar a ARTIGOS e e ASIDE como um conteúdo relativo aaquele outro, tipo referente ao ARTIGO
+
+
+
+------Capitulo 16 aula 5-------
+
+Foi uma aula mais sobre como criar sombras com as caixas e uma dica de sombra, a maneira de criar sombras é simples, usando o box shadow você vai seguir a ordem de:
+
+BOX-SHADOW: primeiro o eixo X, segundo o eixo Y, terceiro o blur que aquela sombra vai ter, quarto o quanto ela vai se espalhar e por ultimo a cor da sombra, que normalmente é feita so com preta e tirada a transparência dela.
+
+tem um atalho pra fazer no inspecionar la do google uma font, mas não entendi porra nenhuma então desisti.
+
+
+
+------Capitulo 16 aula 6-------
+
+Para se alterar as pontas das caixas é preciso usar a tag BORDER-RADIUS, que faz com que essas quinas fiquem arredondadas dependendo do quando você colocar, essas bordas podem ser todas iguais com você so colocando um numero especificio tipo 20px, ou você pode mudar cada uma de forma especifica, sendo a ordem: top-left, top-right, bottom-left, bottom-right.
+
+As sombras são afetadas por esse BORDE-RADIUS, ficando com o mesmo formato quando você usa
+
+Para você fazer uma bola com o BORDER-RADIUS, basta você colocar o valor de 50% nele
+
+
+
+------Capitulo 16 aula 7-------
+
+para colocar uma bordar personalizada no seu HTML, basta você usar o comando BORDER-IMAGE-SOURCE: URL() e colocar a borda que você deseja em forma de imagem. Depois como ele so vai colocar a imagem nos cantosd, você utiliza o BORDER-IMAGE-SLICE, pra ele fatiar a imagem, e também colocar um BORDER-IMAGE-REPEAT, pra repetir o padrão da borda. que também da pra usar a configuração stretch, que puxa as linhas das bordas deixando normal so nos cantos
+
+Por ultimo, uma dica pra realmente ajeitaqr essa borda é ir em inspecionar e mudar até uma configuração que fique boa pra você, mas como é foda nois fazer isso de inspecionar você pode fazer na mão/chute
+
+e por ultimo da pra fazer uma shorthand com isso so usando BORDE-IMAGE, na ordem: SOURCE, SLICE e REPEAT.
+
+E isso tudo so funciona com uma bordar normal ativa, pra segurar tudo
+
+
+
+
+

@@ -1,0 +1,76 @@
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 1 aula 1-------
+
+Repositórios publico
+
+https://github.com/gustavoguanabara
+
+gustavoguanabara.github.io
+
+
+
+------Capitulo 1 aula 3-------
+
+
+REFERENCIAS ONLINE E DOCUMENTAÇÂO:
+
+Referência MDN
+Mozilla Developer Network
+
+WHATWG Living Standard
+Web Hypertext Application Technology Working Group
+
+W3C Standards
+World Wide Web Consortium
+
+W3Schools
+Refsnes Data
+
+
+LIVROS: 
+
+Elizabeth Castro e Bruce Hyslop
+HTML5 e CSS3
+Alta Books
+
+Jon Duckett
+HTML&CSS
+Alta Books
+
+HTML e CSS
+Elisabeth Robson e Eric Freeman
+Alta Books
+
+CRIE SEU PRÓPRIO SITE
+Nate Cooper e Kim Gee
+Novatec
+
+
+------Capitulo 1 aula 4-----
+
+A internet surgiu da guerra fria
+
+ARPANET: foi criada para guarda dados dos estados unidos e não serem perdidos pela guerra
+
+Protocolo são uma linguagem única que todo mundo vai conseguir falar, os estadunidenses criaram a NPC para conseguir uma comunicação dos 4 computadores diferentes que xistiam naquela época.
+
+por ser um protocolo limitado e que continha algumas falhas criticas a medida em que as informações e bases de informações aumentavam, foi preciso criar um novo protocolo, o TCP, e por ter uma falha na identificação das maquinas, foi criado o IP para agir em conjunto a ele.
+
+Depois a arpanet queria dividir seus usuários, já que havia muitos usuários distintos como, estudantes, militares cientistas, na mesma rede, nisso foram dividas em 3 tipos de rede, e após isso essas redes queria se comunicar entre si, criando assim o interconnect working, que foi abreviado depois para internet.
+
+
+Modo de comunicação de dados
+
+se existirem dois computadores querendo se comunicar entre si, o primeiro computador que tem a informação vai mandar pelo protocolo TCP a informação fragmenta em vários pacotes para o outro computador, que com o TCP dele vai ser capaz de reconstruir esses fragmentos
+
+
+O HTML é do mesmo criador do HTTP
+
+www é uma rede que está dentro da rede internet, sendo o conjunto de servidores especializados em http
+
+
+
+
+

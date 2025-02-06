@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fontes/Bebas_Neue/BebasNeue-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(161, 161, 245);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #21B062, #23332B);
+    padding: 10px;
+    color: white;
+    margin: 0px;
+    font-family: 'bebas', Arial, Helvetica, sans-serif;
+}
+
+header > h1,p{
+    text-align: center;
+}
+
+header > h1{
+    margin: 10px 0px 30px 0px;
+    font-weight: 800;
+    
+}
+
+header > p{
+    margin: 0px 0px 40px 0px;
+    
+}
+
+header > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px 0px 10px 0px;
+    padding: 11px 20px 11px 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > a:hover{
+    background-color: rgb(8, 136, 8);
+}
+
+
+
+main{
+    height: 1200;
+    width: 850px;
+    margin: 0px auto 10px auto;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+main > h1{
+    margin: 0px 10px 20px 10px;
+    padding: 10px 0px 0px 0px;
+}
+
+main > h2{
+    margin: 10px 10px 20px 10px;
+    background-image: linear-gradient(to right, #04DB65, white);
+    padding: 2px 10px 2px 10px;
+}
+
+main > h1,h2{
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    color: #23332B;
+}
+
+main > p{
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+span{
+    color: #21B062;
+    font-weight: bold;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.links {
+    color: #21B062;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+#video{
+    background-color: rgb(43, 141, 43);
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    background-color: rgb(80, 221, 80);
+    color: white;
+    padding: 3px;
+    padding-left: 8px;
+    font-weight: bolder;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#extra{
+    background-color: rgb(181, 255, 206);
+    width: 780px;
+    margin: 20px auto 10px auto;
+    border-radius: 10px;
+}
+
+#extra > .texto{
+    margin-bottom: 20px;
+    text-align: justify; 
+    text-indent: 20px;
+    margin-left: 8px;
+
+}
+
+
+
+.listas{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+main > img{
+    margin: auto;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+

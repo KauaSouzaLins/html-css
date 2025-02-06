@@ -1,0 +1,69 @@
+Documentação (6)
+
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 6 aula 1-------
+
+É claro que você num ambiente escolar onde é so uma entrega de trabalho, você vai poder usar qualquer imagem que você ahcar no google, mas em uma empresa ou trabalho, você deve procurar imagens que você realmente pode usar.
+
+É preciso ir em ferramentas, nas imagens do google, e procurar imagens onde você posso reutilizar e modificar ou pelo menos reutilizar de forma comercial
+
+Bons sites para isso também: unsplash, pexels
+
+
+
+------Capitulo 6 aula 2-------
+
+jpeg tem alto compactação mas não possui transparência, bons para imagens de fundo
+
+PNG permite transparência mas não tem a alto compactação do Jpeg, bons para imagens no site avulsas
+
+
+
+------Capitulo 6 aula 3-------
+
+
+para redimensionar imagem , no gimp, é so ir na opção imagens e achar redimensionar, colocando o primeiro valor ele já ajeitar automaticamente o outro pra você.
+
+é recomendável que você deixe a versão original da imagem salva para se você quiser fazer outras trocas de dimensões
+
+
+
+------Capitulo 6 aula 4-------
+
+<img src="" alt=""> para colocar uma imagem no HTML, sendo, 
+
+src: source, origem
+
+alt: alternative, texto pra explicar melhor a imagem
+
+ctrl + espaço na parte de src para ver as opções de imagens
+
+é preciso exportar o arquivo para ele vim em PNG do gimp, não simplesmente salva-lo
+
+
+Podemos também carregar imagens que estão em subpastas, e para isso o melhor a fazer é usar o comando de ver opções de imagens e procurar dentro da pasta
+
+
+E para carregar imagens da internet sem salvar é so copiar o endereço da imagem e copiar e colar no código
+
+
+
+------Capitulo 6 aula 5-------
+
+Ícones de favoritos ou favicons, são ícones que ficam no lado do nome do site quando você entra em um e fica a guia la em cima
+
+um bom lugar para achar isso é no iconarquive
+
+da pra criar novos icons em pixel também no favicon.cc
+
+e para transformar uma imagem em icon é so usar o favicon.io, sendo preciso so arrastar a imagem que quer até a área e fazer download, depois extraindo o arquivo e mandando pra pasta que quer
+
+
+Para colocar um Favicon
+
+pode colocar acima do title no Head a tag "link" vendo as opções e procurando link favicon, apagando a parte do href que esta escrito favicon e usando o comando de pesquisa, ctrl + espaço, para achar o icon que quer colocar.
+
+
+&#x

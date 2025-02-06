@@ -1,0 +1,111 @@
+Documentação (9)
+
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 9 aula 1-------
+
+
+Lista de ordenados: são lista que a ordem dos fatores faz a diferença, é como uma receita, onde você não pode colocar os ingredientes de qualquer jeito
+
+OL= ordery list
+LI= list item
+
+A tag <ol> possui um parâmetro type, onde configuramos o tipo de marcador da lista atual. As opções de valores para esse parâmetro são:
+
+1- Valor padrão. Cria listas numeradas. Ex: 1, 2, 3, 4, ...
+A - Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D, ...
+a Cria listas alfabéticas em minúsculas. Ex: a, b, c, d, ...
+I- Cria listas com algarismos romanos em maiúsculas. Ex: I, II, III, IV, ... - Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv, ...
+
+também da pra fazer ele começar em outro numero ou letra, colocando START como parâmetro de OL
+
+
+UL= unordery list
+
+não precisam de ordem, somente uma lista, tipo lista de compras
+
+types: disc(bola enchida), circle(bola vazia), square(quadrado)
+
+
+
+------Capitulo 9 aula 1-------
+
+da também para misturar as lista, fazendo uma lista ordenada ou não ordenada dentro da outra, ou fazer os dois tipos de lista dentro da outra.
+
+aninhamento: uma tag dentro da outra como um ninho
+
+
+DL: definition list
+
+DT: termo
+DD: descrição
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carta
+
+
+Bom eu queria dividir em tópicos como vc fez pq aí acho que fica mais fácil?
+
+Fofura
+Cara a cada dia mais eu agradeço por ter um namorado como vc comigo, vc é simplesmente perfeito, o jeito que vc me elogia é surreal, as vezes eu realmente nunca reparei nas coisas que vc aponta que gosta sobre mim, mas vc diz e eu fico minutos no espelho olhando pra aquilo, ou coisas da minha personalidade que eu nem ligo tanto e dps reparo ou começo a gostar,quando vc elogia 
+Eu acho vc lindo, seu cabelo tá sempre tão bonito, mesmo quando vc fica com cabelo bagunçado, os cachinhos são tão fofos e bem feitos, e ainda é macio, que inveja parece que nunca tá seco, vc nem sua shampoo caro ou hidratação cara mas tem o cabelo mais sedoso que o meu!!!! Injusto isso ai, seu rosto é tão LINDO JESUS, sua boca não tem como não olhar eu desejo ela o tempo todo, sua bochecha é tão fofa não consigo ficar perto e não beija, vc tem as pintinhas mas lindas desse mundo no rosto, toda vez que vejo me derreto com a fofura delas, seus olhos puta merda são tão expressivos e brilhantes, e são grandões, eu sempre consigo saber seu humor por causa deles, quando age fofo, brincalhão, safado, até quando se faz de sonso, não consegue esconder eles te delatam, toda sua face é linda inclusive seu nariz que eu acho particularmente lindo, já disse que gosto de nariz desse jeito.
+
+Seu corpo
+E lá vamos nós..... Seu corpo puta que pariu então, sua mão é coisa de doido cara toda hora eu me pego imaginando ela me tocando...mexendo no meu peito e brincando com meu mamilo, apertando forte e com jeito, imagino ela passando pelo meu corpo e apertando onde quisesse, e imagino ela dentro de mim me deixando doida.
+Nem preciso falar da sua teta e da sua bunda já ficou claro oque quero fazer com ambos. Eu queria tanto sentar em cima de vc, de vdd, parece tão bom só ficar em cima de ti e te beijar, inclusive beijo bom do K7, eu queria real da pra vc ali naquele momento que merda de vida, só queria te agarrar e sentar em vc 🫠. E dizendo algo que eu queria ( mas óbvio não precisa), queria muito tocar no seu pau, só queria sentir e tirar essa curiosidade é o único lugar que não posso tocar e quero muito sentir ele.
+
+Fantasias 
+Isso é vergonhoso mas se fosse dizer das minhas fantasias concerteza seria: me pegar com você durante muito tempo até ambos de nós estivermos bem excitados aí dps transar, queria transar com você quantas vezes aguentassermos e queria poder testar outras posições com vc... Queria muito saber como é te chupar, não acho que seria muito bom na primeira vez mas tentaria melhorar.
+Uma fantasia que eu tenho tbm é ser dominada por vc, queria que vc me segurasse e me agarrasse e me fodesse sem dó, um pouco do meu lado masoquista me faz gostar de imaginar vc não tendo piedade comigo, ao mesmo tempo queria muito te foder tbm e ser dominante com vc. Queria tbm zerar o Kama sutra indiano e testar todas as dicas sexuais que tem ali.
+Se vc soubesse todas as coisas taradas que eu penso de vc tbm se acharia gostoso. Testaria fazer isso sem camisinha ( claro que com o preparamento certo), quero sentir vc totalmente pelo menos uma vez. Nunca tive nenhuma tara em transar por trás mas com vc qlqr coisa parece bom, eu até pensei que tipo de lubrificante poderia usar nessa situação. Ah e mesmo que o bagulho do avental tenha sido novidade pra mim eu acho legal isso de ficar com roupas provocativas pro seu parceiro, eu super cozinharia e daria pra vc ( não sei como, mas o amor é mágico a tesão tbm)
+Eu pesquisei e tentei pensar em lugares onde eu poderia ficar só com vc, quebrei a cabeça mas não obtive resposta nenhuma é foda pensar que eu quero isso tudo com vc e não tô nem perto de obter.
+Enfim é isso, só um carta curta pra vc, em outros momentos faço mais,
+eu te amo muito ❤️❤️
+
+
+https://x.com/lry2yb/status/1844859861395206634?t=oX_2CqmIEGNex6vU9t6kcQ&s=08
+
+
+
+[21:32, 01/10/2024] My Sun☀️❤️: KSKSKKSKSK Krl tá reclamando que tá ganhando de graça só tu mesmo, então quero um relatório por escrito no final do ano, de como foi no relacionamento e as melhores partes
+
+[23:06, 28/09/2024] My Sun☀️❤️: Foi que tava frio então vc não desgrudou de mim e eu realmente gosto de ficar assim com, além dos beijos que eu já amo, aí veio o toque mais """"ousado """ (palavra brocha mas é o que tem) na minha coxa, e tbm os beijos na boca, resumindo foi vc ficar agarradinho comigo e o seu desejo por mim que tava bem nítido dava pra pegar na mão
+
+[22:52, 28/09/2024] My Sun☀️❤️: Sempre que tu fica pedindo pra me abraçar ou tocar, ou fica me abraçando mais forte pra mim não sair é muito bom cara, tipo sadismo/ masoquismo, pq eu gosto de ser apertada e tals e gosto de ver vc implorando
+
+Bom eu gostei de toda a situação pela naturalidade que tudo rolou, sla a forma que vc me tocou foi muito boa e eu meio que ansiava por aquilo? Queria ter esse momento com vc e simplesmente foi perfeito
+
+[22:25, 19/09/2024] My Sun☀️❤️: Eu entendo seu medo mas seu toque não me incomoda, vc colocou a mão na minha coxa nem liguei pq real não ligo mais pra isso com vc, de qlqr jeito é só minha opinião faz oq quiser, se quiser fazer tudo que quer fazer se não, não faz e tudo bem
+
+[22:15, 19/09/2024] My Sun☀️❤️: Acho que vc deveria tentar fazer ou pedir oq vc quer, arriscar nos seus pensamentos e no que vc quer, claro se não for 100% fogo no rabo, pode tentar me tocar ou fazer algo diferente ou que viu na Net a hora que quiser, tipo aquela brincadeira de segurar minha mão no alto que tu fez ksksksks só faz oq tu quer, tipo eu gosto de um lugar novo em vc e simplesmente toco ou peço pra tocar..... Penso assim
+
+[22:39, 26/08/2024] My Sun☀️❤️: Obrigada amor vc é incrível e por isso eu sempre vou sair da minha zona de conforto por vc

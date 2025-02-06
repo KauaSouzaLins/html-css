@@ -1,0 +1,158 @@
+Documentação (17)
+
+Modulo 2 curso HTML e CSS
+
+------Capitulo 17 aula 1 and aula 2-------
+
+Foram so explicação de como vai ser o desafio, abrindo arquivos e mostrando o site
+
+
+
+------Capitulo 17 aula 3-------
+
+Para você criar layouts de sites, um bom site/app é o MOCKFLOW, você tem que fazer login la e depois pode usar a vontade, ele é meio chato de usar então se fosse você usaria o canva ou o figma já que precisamos aprender.
+
+Depois ele fala do adobe color denovo pra escolher uma cor, e por ultimo das tipografia que foi procurar, se atentar a sempre procurar tipografias que possuem acentuação.
+
+
+
+------Capitulo 17 aula 4-------
+
+É recomendado que áreas com links, sejam contornados pela tag NAV, já que é o que representa uam seção cheia de links
+
+É recomendado também que você deixe seu conteúdo do main dentro de um ARTICLE.
+
+
+Se você criar o arquivo CSS como se ele estive em uma pasta, como por exemplo, ESTILO/STYLE.CSS, ele vai criar a pasta para você automaticamente também junto do CSS
+
+Para conteúdos extras ou relacionados ao conteúdo principal ou a qualquer outro conteúdo, você utiliza o ASIDE para referenciar esse conteúdo como extra ou relacionado.
+
+
+
+------Capitulo 17 aula 5-------
+
+Uma boa forma de ir organizando seu conteúdo de forma linear, é você primeiramente fazer configurações básicas né de HTML, PT-BR e nome do arquivo, depois separar os tópicos em seções, HEADER pra cabeçalho, NAV pra menu, MAIN conteúdo principal com o ARTICLE, se precisar também um ASIDE dentro, e por ultimo o FOOTER, depois você coloca todo seu conteúdo separado em cada tópico e após isso vai organizando o que é paragrafo, titulo e tals e tals. Depois uma boa é colocar todos os links ou partes sumblinhadas ou em negrito do site, colocando os links já e seus respectivos direcionamentos.
+
+
+Isso de, o que é paragrafo ou titulo, você vai decidindo antes de fazer o site, em um script e também tendo ali seu wireframe como base.
+
+Durante a sua criação, você tem que saber aonde quer deixar links, aonde quer deixar negrito, partes sumblinhadas marcadas, e Durante a criação você deve deixar também links que você quer que tenha, e aonde na parte do texto.
+
+também algo importante é ver como deixar seu site bem visualmente em todas as telas, a famosa responsividade, e nisso você pode usar o Google inspecionar pra ajudar e ir tirando métricas, o site tem que ficar bom em tal largura e blah blah blah.
+
+
+
+------Capitulo 17 aula 6-------
+
+:ROOT, é a raiz da arvore do documento, fica no CSS, tudo que você colocar dentro dele, vai servi para o documento inteiro.7
+
+Com esse elemento você pode criar variáveis em CSS, nisso você pode criar uma variável por exemplo pra cor, ai você pode aplicar aquela cor em diferentes lugares e tals usando VAR(nome da cor), e quando você quiser mudar aquela cor, você pode mudar na variável que ela vai mudar todos os elementos com aquela mesma cor.
+
+você coloca o nome da variável, e depois coloca o que ela é, por exemplo
+
+--cor1: #3DB11D
+
+
+Com isso da pra criar também variáveis para fontes e tals.
+
+No font-face, se você usar / dentro do URL, ele te deixa escolher a pasta como no CTRL + espaço]
+
+
+* seleciona todos os elementos da HTML]
+
+Isso ajuda a fazer uma configuração global, onde você pode tirar todo o padding e margin dos elementos já que atrapalhar muitas vezes
+
+
+Se você abrir o inspecionar no seu google, e mexer no tamanho do site, ele vai te dar a largura que ele tem e isso pode servir pra quando você quiser mudar um site e tals.
+
+
+
+------Capitulo 17 aula 7-------
+
+Agora quando for fazer seus sites, não trabalhe mais com valores fixos de width e height, use o valor max e mínimo, pra conseguir atender a dispositivos pequenos como celulares antigos (que tem sua largura normalmente de 320px) e pra telas grandes e não deixar uma leitura cansativa e gigante, deixando seu conteúdo centralizado em um espaço em especifico de 800px.
+
+MIN-WIDTH: 320px
+MAX-WIDTH: 800px
+
+isso também vale para height
+
+
+Para imagens, se você usar o WIDTH: 100% você vai fazer com que a imagem se adapte ao WIDTH que você colocou no seu site, deixando assim  ela se adaptar ao tamanho da tela enquanto ela aumenta ou diminui, se você usar WIDTHs menores, a imagem vai diminuir e se pa seja bom em certas imagens que fiquem muito grande quando você diminuir o tamanho do site. Você tem que colocar o IMG referenciado no CSS para as configurações funcionarem
+
+Ao colocar uma imagem menor no lugar de uma grande, é recomendado que nas alturas MAX esse valor seja um pouco menor do que o máximo de fato, pra ele diminuir até um ponto onde fique ruim de se ver.
+
+lembre-se também da responsividade básica, e de criar imagens menores para aparelhos menos
+
+
+
+------Capitulo 17 aula 8-------
+
+Para centralizar uma imagem, basta você transforma-la ela em um bloco com DISPLAY: BLOCK, e fazer com que ela fique no meio com MARGIN: CENTER
+
+
+
+------Capitulo 17 aula 9-------
+
+Se você quiser que um texto quebre, mesmo se a tela for grande, basta colocar uma MAX-WIDTH pra ele.
+
+para colocar sombra em textos, é so usar o TEXT-SHADOW.
+
+Se você escrever var em algum área que queira e usar o (), assim VAR(), se você clicar ctrl + espaço você pode ver todas as variáveis.
+
+Tem como você criar uma animação de transição, que você coloca em forma de segundos, usando o TRANSITION-DURATION: 0.5s or 1s, da pra criar animações interessantes com isso, pense sobre.
+
+
+
+------Capitulo 17 aula 10-------
+
+No site do Guanabara ele percebeu que usar a parâmetro de porcentagem no WIDTH deixou a imagem muito pequena na tela e usar simplesmente um tamanho máximo já iria realmente deixar o boneco mais visível no computador mas não ao ponto de ficar pixelado, e não tão pequeno nos celulares.
+
+Para você referenciar uma tag que está simplesmente dentro de outra, sem contar seu nível (se ela esta dentro de outra tag por exemplo seu nível abaixa, tipo: um P dentro de um MAIN e um ARTICLE) para este caso você não usa >, que vai fazer o programa entender que está simplesmente dentro da primeira tag, por exemplo: MAIN P{
+
+e se você quiser referenciar por um caminho em vez de MAIN P direto, você pode usar MAIN > ARTICLE > P
+
+
+A tag LINE-HEIGHT serve para mudar a distancia entre uma linha e outra, isso ajuda a não dar aquele efeito de você ir para o começo de um paragrafo e reler o que você já estava, aumentar o espaçamento ajuda nisso.
+
+
+Na hora de fazer DEGRADES em CSS, da pra você colocar pra cor ficar indo pro transparente, colocando a primeira cor depois transparent.
+
+
+
+------Capitulo 17 aula 11-------
+
+Para você configurar lista existem duas tags, que são elas LIST-STYLE-POSITION, que ajeita se a lista ta dentro ou fora de uma DIV (pelo que entendi), INSIDE é dentro. e OUTSIDE é fora.
+
+E a segunda é COLUMS, que separa a linhas em quantas colunas você definir
+
+
+ESSA CONFIGURAÇÃO NÃO É COMPATIVEL COM TODO NAVEGADOR
+
+pra você conseguir colocar um emoji ou outro símbolo no lugar das bolinhas da lista, basta usar a tag LIST-STYLE-TYPE, colocar o código do emoji e uma \ antes
+
+E se você achar que ficou muito grudado, basta usar o código 00A0 pra dar um espaço entre eles
+
+
+Pra ajeitar seu bloco la do H3 que não está grudando no ASIDE, basta usar MARGIN negativo, o tanto que ele ta longe
+
+
+Para você colocar uma imagem ou emoji depois do link, basta você usar a configuração AFTER que aprendemos anteriormente, e colocar o emoji em um CONTENT: com \ também
+
+
+
+------Capitulo 17 aula 12-------
+
+Para centralizar um vídeo são configurações, bem complicadas, mas ai vai.
+
+Primeiro você coloca seu vídeo em uma class, colocando suas configurações que você quer, mas depois você coloca esse primeiro parâmetro com POSITION: RELATIVE
+
+depois você cria outra parâmetro referenciando a tag IFRAME, ou seja .VIDEO > IFRAME, após isso você vai colocar nesse parâmetro POSITION: ABSOLUTE
+
+
+Apartir daqui já vai mais de chute, mas você coloca um PADDING-BOTTOM com certa PORCENTAGEM, use 50% de começo.
+
+Depois você vai colocar os parâmetros TOP e LEFT como PORCENTAGEM também, pra ajeitar praticamente o PADDING do vídeo, então você decide qual fica melhor
+
+E depois por você usar porcentagem, você consegue mexer nos WIDTHs e HEIGHTs do seu vídeo, pode colocar a configuração que preferir, mas normalmente se coloca 100% pra ele ocupar toda a área.
+
+Depois disso tudo, você vai ver que o seu vídeo pode ficar com barras pretas do lado, ai que você mexe no PADDING-BOTTOM, pra ajeitar o tamanho do vídeo e essa barras pretas, até sumirem.

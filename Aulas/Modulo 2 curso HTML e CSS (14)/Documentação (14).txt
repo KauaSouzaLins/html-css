@@ -1,0 +1,202 @@
+Documentação (14)
+
+Modulo 2 curso HTML e CSS
+
+------Capitulo 14 aula 1-------
+
+O que significa Tipografia:
+
+A tipografia se deu no século 15, Existia antes disso os chamados Monges Copistas, que copiavam os livros a mão. Até que veio Johannes que criou uma prensa mecânica, que usava da força pra prensar as folhas sobre letras com tinta, formando assim uma maneira mais eficaz de se fazer as palavras. Na vdd foi descoberto depois que foram chineses que criaram essa prensa mas né, quem é dado como pai é o Johannes.
+
+Nesse momento teve uma hora onde eles queriam criar letras mais fáceis para serem lidas e também que ocupassem menos espaço. Dai que veio o estudo da tipografia e das letras
+
+Typos: Impressão
+graphía: escrita
+
+Tipografia: Estudo de como escrever coisas no papel
+
+
+Tipografia, igual a praticamente todos elementos estudáveis no design, são elementos, ou nesse caso letras, que remetem a uma ideia de coisa, então é isso que você tem que se atentar quando for escolher uma tipografia pra seu site ou Design.
+
+
+
+------Capitulo 14 aula 2-------
+
+As fontes para serem criadas tem varias regras, uma delas é que toda vezx que se cria uma fonte você começa pela letra X, que chamam de altura X da fonte. Essa altura vai definir a altura de todas as letras minúsculas.
+
+Depois vão ter a altura das letras maiúsculas, e tem algumas letra que mesmo minúsculas, ainda passam do tamanho do x, Essa alturas são chamadas de ascendente se for pra cima b, e descendente se for pra baixo g. A altura de todas essas coisas, desde os descendentes até a altura da letra maiscula é chamado de CORPO
+
+
+Importância das serifas: Ela cria no nosso cérebro uma linha imaginaria, como se tivesse uma linha ali embaixo das letras que guia mais facilmente nosso olhar.
+
+
+Glifo: um glifo é uma letra de uma fonte, um conjunto de glifos forma uma fonte
+
+Existem família de Glifos, que são separadas pelos seus tipos, por exemplo o open sans que possui o open sans light, open sans normal, opens sans seminegrito... Nem todo fonte tem uma família gigante, o google chama isso de variações, as famílias no caso não a quantidade. Toda fonte tem a versão normal, e muita das VEZES tem versão com negrito.
+
+
+Categorias de fonte:
+
+serifadas: contem serifa
+
+Sans-serif: sem serifa
+
+MonoEspaçada: são fontes onde o espaço da letra se repete em todas
+
+HandWriting: fonte escripitada, ela tenta imitar a escrita a mão do ser humano
+
+Fontes comemorativas/display: não se baseia em nenhuma das regras acima, são as mais usadas em Fontes de filmes ou essas fontes que servem pra simular algo.
+
+
+Em textos muito longos em tela, de preferencia a fontes não serifadas
+
+Na hora de ler, é obrigatório ter cores complementares ali
+
+
+
+------Capitulo 14 aula 3-------
+
+Para usar uma fonte em um site, basta ir no CSS e adicionar no BODY o parâmetro FONT-FAMILY:
+
+é seguro usar nesse parâmetro, 3 tipos de fontes, para a que o computador ou celular ou tablet detectar primeiro usar, e não ter o problema de o dispositivo não ter ou não suportar aquela fonte
+
+
+www.w3scholls  CSS web safe fonts combinations, para achar combinações de fontes
+
+
+É sempre melhor terminar a sua safe combination de fontes com uma geral, tipo sans-serif, serif, monospace...
+
+Da pra você colocar um parâmetro junto com outro parâmetro em css simples colocando virgula tipo:
+
+h1, h2{
+
+}
+
+
+------Capitulo 14 aula 4-------
+
+Acerca dos tamanhos das fontes, vamos seguir as recomendações da W3C
+
+Medidas absolutas: cm, mm, in(polegada), px(pixel), pt(ponto), pc(paika)
+
+Medidas Relativas: em(relativa ao tamanho atual da fonte), ex(relativa a altura x de uma fonte), rem(relativa ao root, ou a fonte do body), Vw(porcentagem da view port ou largura de tela), vh9porcentagem da altura da view port), %
+
+Para medidas de fontes a W3C recomenda o EM e o PX
+
+
+16px= Normalmente o tamanho padrão da fonte, é igual a 1EM normalmente
+
+O EM é sempre relativo ao tamanho natural da fonte, ou seja se você colocar 2em, vai ser o mesmo que 32px, o EM trabalha com porcentagem do tamanho padrão da fonte, então ele é o mais recomendado, sabendo que tem telas que usam pixel duplo pixel triplo e tals...
+
+
+
+------Capitulo 14 aula 5-------
+
+Peso: deixar a fonte mais gorda ou magra
+
+font-weight: peso da fonte
+
+
+Pesos literais: lighter, normal, bold, bolder
+
+Peso numérico: vai de 100-900
+
+a duas versões você tem que pesquisar pra ver se a fonte tem esses tipos diferentes de peso
+
+
+font-style: muda pra itálico e essas variações
+
+text-decoration: sublinha a palavra.
+
+
+A SUA FAMILIA DE FONTES TEM QUE POSSIBILITAR ESSAS 3 CONFIGURAÇÕES:
+
+font-family
+font-weight
+font-style
+text-decoration
+
+
+shorthand: dando uma mãozinha, uma propriedade que você consegue dizer varias coisas em uma única linha
+
+Para juntar todas os parâmetros acima em um, é preciso usar o 
+
+FONT: com a ordem de font-style, font-weight, font-size, font-family.
+
+
+
+------Capitulo 14 aula 6-------
+
+Repositorio gratuito do googlwe com fontes
+
+Para trazer fontes do repositório do google, basta você ir na fonte que você achou e ir em get font, depois em embed code e pegar a parte do código CSS dentro do slide, o link pro google
+
+Em media é melhor você usar de 3 a 4 fontes no seu site inteiro, isso batendo no limite.
+
+
+
+------Capitulo 14 aula 7-------
+
+Um bom ie para achar fontes externas é o DAFONT, mas fique ligado pq ele te mostra todos os glifos das fontes, então você pode ver se tem glifos acentuados, maiúsculos e tals, ver como são todos os glifos.
+
+Para colocar fontes baixadas externamente você vai utilizar a regra global em CSS @font-face, colocando o nome da fonteigualzinho está no arquivo na URL e todos os seus tipos se ele tiver mais de um tipo de arquivo
+
+
+Tipos de format:
+
+opentype(otf)
+truetype(ttf)
+embbed-opentype
+truetype-aat (apple dvanced typograf)
+svg
+
+Esse formatos são para dizer o tipo da sua fonte para o navegador, tem alguns opens types que são ttf, então fique de olho.
+
+Se você quiser colocar outro arquivo, você depois de colocar o formato do arquivo você coloca virgula e coloca outra URL e coloca o segundo tipo de arquivo.
+
+Depois você pode colocar o font-weight e font-style pra deixar mais completinho o arquivo da nova fonte.
+
+A parte do font-family que a regra criou você coloca o nome que você quiser pra te facilitar.
+
+
+Se tiver uma parte estranho você precisa ajeitar no próprio lugar que a fonte ficou estranha, tipo no h1, e não naquela parte em que você colocou a font.
+
+É recomendável que você coloque suas fontes dentro de um arquivo de fontes, igual você faz com imagens.
+
+Da pra você copiar uma fonte em um arquivo so copiando essa regra que a gente criou pra ela e colocando lá, desde de que o arquivo esteja na mesma pasta
+
+Pra você adicionar mais uma fonte por esse método melhor criar outra FONT-FACE, já que você vai ter que colocar um nome para a font
+
+
+
+------Capitulo 14 aula 8-------
+
+O fonts ninja te permite saber a fonte do site e se você passar o mouse em cima dos texto você consegue ver a cor usada o tipo de de tamanho da fonte e essas coisas, mas ele não funciona no opera so no google chrome mesmo. 
+
+Este plugin não vai servi para fontes em imagens
+
+
+Da para você fazer o mesmo tipo de código de font-face com o bagulho do google fonts, simplemente, baixando a font de lá
+
+
+
+------Capitulo 14 aula 9-------
+
+Como pegar Fontes de Imagens:
+
+WhatFontis
+
+è u site bem demorado e lento, você tem que depois que selecionar sua imagem, especificar a fonte que você quer e também deixar nítido depois ela na imagem selecionada. Você também tem que separar as letras se elas estiverem muito grudadas. E por ultimo você informa que letras ou números são aqueles. É bem lentinho mas parece ser bem certeiro e vale a pena testar mais vezes.
+
+Fontsquirrel
+Myfonts
+
+Os outros dois são identificadores normais e você já testou o myfonts, parece ser melhor que o Fontsquirrel
+
+
+
+------Capitulo 14 aula 10-------
+
+textos normalmente tem seus alihamentos dos dois lados que seria justify
+
+text-indent: 20px, serve para dar o espaço de primeiro paragrafo de um texto

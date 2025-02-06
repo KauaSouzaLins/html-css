@@ -1,0 +1,70 @@
+Documentação (12)
+
+Modulo 1 curso HTML e CSS
+
+------Capitulo 12 aula 1-------
+
+estilo inline
+
+Você pode sim adicionar o css dentro do HTML, mas esse é um método antigo e todas os parâmetros usados assim ficam em vermelho para relembrar isso, o recomendável é você criar um arquivo CSS mesmo
+
+estilo inline: é o mesmo que você colocar um estilo em cada tag, so mudando aquela com o estilo, e não todas de uma vez
+
+é um tipo de estilo muito pouco usado no dia a dia, e so serve realmente para mudanças muito especificas
+
+
+
+------Capitulo 12 aula 2-------
+
+Estilos Locais / Internos
+
+São estilos onde você cria dentro do arquio html uma tag style, entre title e head, nisso você coloca as configurações de CSS dentro dele, a vantagem é que nesse modelo, ele troca todos da mesma tag de uma vez, e não separadamente a cada linha igual o anterior
+
+este modelo é mais utilizado em página simples, onde você não vai reutilizar aquelas configurações de CSS
+
+
+desvantagens:
+
+-a parte de estilo vai ocupar mais espaço que o conteúdo e vai atrapalhar na visualização dele dentro do arquivo
+-é preciso copiar o mesmo código varias vezes se você tiver varias paginas diferentes que precisem daquelas configurações
+
+
+ele é utilizável em sites simples com 1 pagina, mas para sites mais avançados com mais paginas é preciso usar uma outra técnica.
+
+
+
+------Capitulo 12 aula 3-------
+
+Estilos Externos
+
+Este tipo de estilo é o mais usado e recomendado, pois ele simplesmente vai criar um arquivo novo com todas configurações CSS, e você vai poder linkar as paginas HTML que você quer que tenha aquele estilo, não precisa ficar colocando todo estilo e mudando tudo em cada pagina é simplesmente você ir la e mudar no arquivo do CSS que está linkado e vai alterar todos os outros arquivos que eles estiver correlacionado.
+
+É possível linkar mais de um arquivo CSS a um arquivo HTML, essas configurações se adicionariam ao arquivo.
+
+Então de preferencia por usar este tipo de uso de CSS no seu site
+
+
+Se você criar um link para uma pagina com arquivo inexistente, se você clicar segurando o botão ctrl no nome do link que você crio ele vai permitir que você crie aquele arquivo depois de aparecer uma mensagem de erro.
+
+
+CTRL + X recorta
+
+
+Para linkar para um arquivo CSS, basta abaixo de TITLE a tag LINK:CSS
+
+para não ocorrer erros de acentuação com seu arquivo CSS adicione @CHARSET "UTF-8"
+
+isso são chamado de REGRAS em CSS
+
+
+Você pode sim usar os outros métodos no mesmo arquivo html, simplesmente criando um style embaixo do link do CSS ou um style dentro da tag que você quer, mas eles vão ser utilizados em coisas muito especificas e em áreas onde somente vai mudar ali naquela pagina ou naquela tag. Por isso fique de olho quando usa-los e se não é melhor ir pelo modo mais simples mesmo
+
+O inline é o que tem poder maior, então mesmo se os outros tiverem outra configuração o inline vai prevalecer
+
+depois é o local e por ultimo o externo
+
+ordem de poder:
+
+-inline
+-interno
+-externo

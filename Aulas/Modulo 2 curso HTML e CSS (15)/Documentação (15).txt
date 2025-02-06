@@ -1,0 +1,103 @@
+Documentação (15)
+
+Modulo 2 curso HTML e CSS
+
+------Capitulo 15 aula 1-------
+
+Seletores Personalizados:
+
+
+ID
+
+Para colocar um ID em uma tag sua, basta digitar ID do lado dela e colocar o id que você deseja. E para chamar ele no CSS basta você digitar a tag e o nome que você deu para ela + #, exemplo: H1#PRINCIPAL
+
+Pelos meus testes, ele não pega parâmetros repitidos das outras tags, mas pega os outros parâmetros.
+
+
+em HTML é ID = em CSS é #
+em HTML é CLASS = em CSS é .
+
+
+
+------Capitulo 15 aula 2-------
+
+Conforme a regra do W3C, so é possível ter um ID em todo código HTML, você pode até utilizar denovo o ID principal que já usou antes mas não está alinhado com a regra. Só é possível um ID único em cada negocio, depois é preciso mudar.
+
+Pra isso que existe a CLASS, que serve como um ID mas pra múltiplas tags. tipo h2 h2
+
+
+não classifique suas CLASS pela forma, tipo dizer que um h2 vai ficar verde e colocar no nome da classe VERDE, coloque o pq ele vai ter aquilo ou pela semântica né. Meu H@ vai ter a cor verde pq ele é está falando sobre coisas básicas e normalmente na ordem de dificuldade verde REPRESENTA esse básico.
+
+
+span: é uma tag simplesmente pra pegar uma parte do texto.
+
+tudo que você colocar da classe básico, até mesmo tags diferentes como textos vão pegar as configurações daquela classe
+
+Nas classes é recomendavwel eu você coloque somente o nome da classe que você deu em vez da tag, diferente do ID já que é único.
+
+
+para colocar uma tag com duas classes basta dar um espaço entre a primeira classe dentro das ASPAS e colocar a segunda classe
+
+E da também para colocar uma class e um id juntos simplesmente criando o parâmetro class junto do id la no negocio e fazendo os dois separados, o ID vai ter mais poder que a class, sobrepondo ela.
+
+
+---Existe uma herança de elementos no css com base nessas classes e ID, mas primeiro você vai fazer as configurações gerais, e depois se for preciso em uma tag especifica você coloca um ID, e se for em muitas tags você coloca uma CLASS.---
+
+em HTML é ID = em CSS é # (Um elemento por documento, por pagina pode ter o mesmo ID)
+
+em HTML é CLASS = em CSS é. (Pode vários elementos)
+
+
+
+
+------Capitulo 15 aula 3-------
+
+DIV é uma tag que é simplesmente um espaço ali onde você pode colocar as coisas, no próximo capitulo vai ser mais aprofundado. Mas em tese ela ocupa a área inteira da tela e funciona como um paragrafo
+
+height é altura
+width é largura
+
+
+pseudo-classes são marcadas por dois pontos : e elas tem que estar relacionadas a um elemento ou uma classe.
+
+Elas estçai ligadas ao estado do elemento, se ele está ativo ligado, marcado e tals
+
+na pseudo-classe HOVER ela configura uma ação ou parâmetros css para ocorrer quando passar o mouse em cima do elemento
+
+
+Usando o símbolo > em uma tag com outra que está dentro dela exemplo: um P que esta dentro de uma DIV. você pode selecionar aquele elemento em especifico.
+
+Display: parâmetro que muda o estado do objeto, podendo usar o NONE pra sumir com ele
+
+E para você fazer aparecer um texto escondido se você escondeu com o div, você pode usar o símbolo > pra pegar aqueles paragrafo especifo dentro da div, usar a pesudo class HOVER no div, e colocar a configuração de display block, pra aparecer denovo
+
+
+
+------Capitulo 15 aula 4-------
+
+Para trocar a cor de um link basta colocar ele no CSS e colocar color la, e se você quiser mudar a cor dele depois de ter sido visitado é preciso usar a pseudo-classe VISITED nos links
+
+Para retirar o sublinhado que fica nos links, basta usar o text-decoration: none, e uma forma de deixar legal e interativo, é colocar o hover para quando passar o mouse em cima o texto voltar a ser underline
+
+E para alterar quando você clica no link mesmo, é simplesmente usar a pseudo-classe ACTIVE
+
+PSEUDO-CLASSES definem estados dos elementos em HTML
+
+PSEUDO-ELEMENTOS podem agir em classes, IDs, elementos. Eles agem diretamente no conteudo do elemento
+
+
+Pseudo-elementos são representados por dois dois pontos ::
+
+da pra usar o pseudo elemento after para colocar texto depois do conteudo de tal tag sem ter que mudar a tag no HTML, facilitando se tiver varias tags iguais que você queira colocar isso
+
+E o before tem a mesma utilidade so que pra colocar antes do conteúdo da tag
+
+
+SELETORES PERSONALIZADOS:
+
+#  = ID
+.  = class
+:  = pseudo-classe
+:: = pseudo-elemento
+>  = children
+

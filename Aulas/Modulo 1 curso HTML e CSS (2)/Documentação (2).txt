@@ -1,0 +1,65 @@
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 2 aula 1-------
+
+A internet funciona em 3 camadas, onde as pessoas ficam na "primeira/ultima camada" onde sai e chega as informações, que passam pela  2 camada onde estão os pontos que ficam as empresas que retém essas informações através de vários cabos e suponho que banco de dados também. E antes disso também tem a terceira camada, que seria pra informações a distancia onde ficam cabos de fibra opticas e o normais também, que mandam essas informações por baixo d'agua através desses cabos a varias e varias distancia se conectando nas pontas dos países
+
+O acesso a internet é limitado em áreas mais rurais ou com pouca concetração de pessoas, por ser menos monetário para empresas que pagam mais pra ficar ali do que recebem.
+
+8 bits formam um bit
+
+um bit é a porção minina para representar um dado
+
+UTF-8?
+
+O computador so entende as ondas quadradas/binarias, não lieralmente os 0 e 1
+
+MB != Mb
+
+MB = megabytes, referente a armazenamento
+
+Mb = megabits, referente a transmissão
+
+
+Como nos conectamos:
+
+O computador/Cliente recebe as informações do roteador que pode vir de vários lugares do mundo, o roteador tem o dever de transformar os tipos de ondas que cada dispositivo aceita, tendo a cenoidal, que é de telefones, e a quadrática, 
+
+quadrada em cenoidal: modulação
+
+cenoidal em quadrada: demodulação
+
+pegando as primeiras letras forma a palavra modem, por isso o nome modem, aparelho que faz modulação e demodulação
+
+Os sites são separados em números não pelos seus nomes nos servidores
+
+So de você desligar e ligar novamente seu modem ele já vai pegar outro IP
+
+DNS seria um tipo de livro de telefones, onde armazena todos os números referentes aos sites, e você so precisa procurar pelo nome dos sites para procura-los e acessa-los, sendo o DNS que faz essa busca para você
+
+Rotas de internet são igual o google maps, se tiver um rota fechada ele pode te levar para uma rota mais longa mas que vai te fazer chegar até o destino
+
+
+
+------Capitulo 2 aula 2-------
+
+
+È preciso de um Dominio para guardar os seus sites e um servido, um lugar para você hospeda-los
+
+Dominio é o nome que indetifica seu site, é um nome único, domínio é pago anualmente, você vai ter que escolher um TLD quando fizer seu dominio
+
+hospedagem é o lugar que guarda seu site
+
+
+URL: localizador de recurso único
+
+www.github.com/gustavoguanabara
+
+GitHub.com: dominio
+
+.com: TLD, existem vários tipos, seja especificio para empresas como o .com, para institutos governamentais como o .gov GTLD, também os identificadores de pais, como o .com.br CCTLD
+
+www: sub domínio
+
+/gustavoguanabara: caminho

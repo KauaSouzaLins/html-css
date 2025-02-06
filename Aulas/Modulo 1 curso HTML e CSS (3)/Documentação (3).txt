@@ -1,0 +1,34 @@
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 3 aula 1-------
+
+HTML e CSS não são linguagens de programação, so linguagens, você desenvolve em HTML E CSS
+
+
+HTML: HyperText Markup Language, linguagem de marcação de hypertexto
+
+CSS: Cascading Style Sheets, folha de estilo em cascata, uma vai modificando a característica padrão da outra, por isso o cascata
+
+
+HTML é focado em conteúdo, texto, imagens, vídeos, tabelas, listas
+
+CSS é focado em Design, cores, sobras, tamanhos, posicionamente
+
+JavaScript: trabaçha as interações, pode criar menus interativos, popups, animações.
+
+É o que forma todo o site
+
+
+Você com o código criado e com o arquivo em mãos, pode mandar ele pro navegador, que vai ter o dever de ler a linha a linha do código e gerar um resultado visual sobre aquilo.
+
+
+
+------Capitulo 3 aula 1-------
+
+
+Front-End: client-side, O programador que vai fazer os códigos para o lado do cliente ver e olhar e interagir, sites e tals
+
+Back-end: server side, O programador que vai fazer códigos ao lado do servidor, para seu funcionamento
+
+Interação: O cliente vai interagir com o site/loja, mandando um sinal que vai chegar até o servidor, que vai responder ele, provalvemente mudando alguma informação ou dando outro sinal

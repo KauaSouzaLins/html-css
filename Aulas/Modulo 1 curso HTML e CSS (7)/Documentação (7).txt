@@ -1,0 +1,14 @@
+Documentação (7)
+
+Modulo 1 curso HTML e CSS
+
+
+------Capitulo 7 aula 1-------
+
+
+
+h1 não é so uma letra grande, é um titulo de nível 1, o seu titulo principal do site
+
+tem a tag LOREM que você pode usar so para ter um paragrafo de base la e com palavras aleatórias
+
+A tag H so vai até o H6

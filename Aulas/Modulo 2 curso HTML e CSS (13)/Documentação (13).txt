@@ -1,0 +1,107 @@
+Documentação (13)
+
+Modulo 2 curso HTML e CSS
+
+------Capitulo 13 aula 1-------
+
+As emoções das cores
+
+É algo de suma importância, tanto na área do design e áreas relacionados a ele, como é o front end por trabalhar com publico, muitas pessoas compram ou deixam de comprar um produto por causa das suas cores, isso vale para sites também, o usuário decide se vai continuar ali pela cara do site, que é definida muito pelas suas cores. Isso é mais inconsciente do que consciente, você decidi muito no automatico
+
+artigos que falam mais sobre isso:
+
+https://rockcontent.com/blog/psicologia-das-cores/
+http://www.matildefilmes.com.br/psicologia-das-cores-guia- avancado-para-profissionais/
+https://neilpatel.com/br/blog/psicologia-das-cores-como-
+usar-cores-para-aumentar-sua-taxa-de-conversao/
+
+
+Muitas empresas optam pela cor AZUL a sua por ser uma cor muito aceita e pouco evitado, tendo uma taxa de aceitação de 45% e muitos tendo como cor favorita, tanto homens quanto mulheres.
+
+
+Muitos sites usam de FUNDO PRETOE E LETRA BRANCA, mas isso, por cansar muito nosso cérebro, deve ser evitado em sites com muito textos para ler, já que vai cansar rápido o leitor, textos simples e rápidos podem sim ter esse padrão, agora com muito texto é melhor Evitar. Em contratos e coisas mais series, melhor ir no PADRÂO de fundo branco com letra preto.
+
+
+É possível ver no site do McD um uso de vermelho que remete as coisas de comida e amarelo que remete a felicidade, mas também eles andam usando muito tons de marrom e cinza para lanches que parecem mais premium.
+
+Verde acaba se remetendo muita a coisa de natureza e saúde, por isso é pouco visto até, mas é bastante usado em coisas de turismo e áreas da saúde
+
+Já o ROSA acabava levando para produtos mais sentimentais e doces, auto cuidados e tals, muito usados em maquiagens, se seu produto não tem essa pegada mais fofa e sentimental é melhor se evitar.
+
+O MARROM é bem relacionado a coisas mais premium, coisas robustas e tals, então em sites assim mais caros ou produtos mais caros ele pode ser utilizado de uma forma linda.
+
+
+
+------Capitulo 13 aula 2-------
+
+Existem varias formas de você representar suas cores em CSS, elas estão todas no exercícios 16, é possível também o CSS calcular automaticamente para você, com você selecionando qualquer cor pelo nome la, e depois clicando em cima dela e mudando na paleta de cores que aparece.
+
+É possível também mudar seu tipo de calculo clicando la em cima na escolha de cores onde está RGB, podendo colocar Hexadecimal ou HSL
+
+E também é possível fazer uma modificação na transparência dele através da barra ao lado das cores, deixando mais ou menos transparente
+
+ALPHA é como o RGB e o HSL calcula a transparência, já o Hexadecimal adiciona mais dois dígitos para calcular isso.
+
+
+
+------Capitulo 13 aula 3-------
+
+Faça paleta de cores com 3 a 5 cores
+
+Cores análogas relacionadas: são 2 cores análogas para e você pula uma das cores do lado e pega a subsequente, para dar um contraste maior.
+
+Cores intercaladas: são cores "análogas" mas você pula uma cor a cada vez que escolhe uma
+
+Cores tetadricas: você escolhe uma cor e pega o completo oposto dela e pega outra cor e seleciona o completo oposto dela.
+
+
+
+------Capitulo 13 aula 4-------
+
+No adobeColor, se você achar uma paleta que te agrade, tem como você pegar as cores do CSS clicando dentro da paleta e vai aparecer um botão la pra mudar pra código css.
+
+Também tem o PALLETON.COM que além de recomendar cores lá, ainda mostra como ficaria essas cores em um site
+
+
+
+------Capitulo 13 aula 5-------
+
+Para capturar cores de um site sem ter que tirar print e provavelmente perde aquela cor, você pode usar a extensão COLOZILLA, que permite que você use o conta gotas la de pegar cor dentro do google
+
+
+
+------Capitulo 13 aula 6-------
+
+Para fazer gradientes em CSS, é preciso usar o parâmetro em style BACKGROUND-IMAGE e escolher a opção LINER GRADIENT e você pode escolher a DIREÇÂO escrevendo: to right, to left, to top, to bottom, ou em GRAUS: 90 deg
+
+para colocar uma configuração global das CSS: 
+
+*{ + configuração
+
+height: 100% para pegar o tamanho de tela todo, e não so uma parte do texto
+
+background-attachment: fixed para fazer com que o fundo não fique se movendo ou seus elementos de fundo
+
+o melhor é organizar o jeito em que o gradiente se comporta em graus em vez de to right to left, por serem limitados
+
+radial-gradiente: cria um gradiente que vem do meio e vai virando círculos
+
+
+É possível também você colocar porcentagem de cada gradiente colocando do 80% por exemplo, antes do ;
+
+
+
+------Capitulo 13 aula 7-------
+
+MAIN: é uma tag que vamos ver mais depois, mas até agora o que ele falou é oq demonstra que aquela parte é seu conteúdo principal
+
+Configuração global também serve para o Font Family
+
+
+MARGIN: AUTO, centraliza seu conteúdo independente do tamanho da tela
+
+PADDING: ajeita o tamanho das margens do seu conteúdo
+
+borde-radius: 20px, ajeita as bordas deixando elas mais redondas ou não
+
+BOX-SHADOW: essa tag vai ter 4 parâmetros, o primeiro sendo o quanto que ela vai para o lado, o segundo é o quanto ela vai para baixo, o terceiro é quanto ela vai espalhar, e o ultimo vai ser a  transparência e a cor dessa sombra. NAÔ TEM VIRGULA

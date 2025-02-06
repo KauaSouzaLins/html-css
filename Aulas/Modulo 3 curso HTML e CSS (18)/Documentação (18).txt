@@ -1,0 +1,86 @@
+Documentação (18)
+
+Modulo 3 curso HTML e CSS
+
+------Capitulo 18 aula 1-------
+
+Repositórios Locais e Remotos
+
+Repositórios é onde você vai guarda coisas, vai ter repositórios no seu computador e repositórios online
+
+
+Se você alterar algo no seu site sem fazer um backup antes de uma versão antiga é impossível você voltar pra aquela versão, então é sempre bom você ter versões antigas do seu site pra ir salvando
+
+
+O Software GIT faz isso de salvar as versões pra você quando você indica que aquilo ali é uma versão
+
+Se todos os seus projetos estiverem salvos na maquina so (UM PUTA PERIGO VENDO AGORA) é bom você ter um backup das versões de tudo mais dentro de uma nuvem online
+
+GITHUB vai ser o lugar que vai solucionar isso, além de guarda seus sites online gratuitamente você ainda vai poder hospedar eles lá para as pessoas verem ele
+
+
+O GIT vai ser igual a um Repositório Local, enquanto o GITHUB vai ser igual a um Repositório Remoto
+
+
+
+------Capitulo 18 aula 2-3-------
+
+Explicação de como baixar Git e GitHub e como fazer uma conta
+
+
+
+------Capitulo 18 aula 4-------
+
+Criar um repositório local
+
+Para você criar um repositório no GitHub basta ir em FILE e NEW REPOSITORY, depois você vai linkar esse repositório a pasta onde está os seus arquivos, é bom ter uma pasta antes desse arquivo, um lugar onde tenha tudo (tipo estudos e ter todas linguagens que você ta aprendendo)
+
+Após linkar também é bom o repositório ter o MESMO nome da sua pasta escolhida e pronto
+
+
+Criar um repositório Remoto
+
+Depois você só clica em PUBLISH para mandar seu repositório para a nuvem do GitHub, e também é bom deixar nessa opção a publicação publica para você conseguir postar seus sites depois
+
+
+
+------Capitulo 18 aula 5-------
+
+Como gerir seus repositórios 
+
+Se você clicar na opção OPEN VISUAL STUDIO CODE (enquanto está com o repositório selecionado) você entra com todos arquivos do repositório direto no Visual Studio
+
+Se você fizer uma alteração no repositório, o GitHub e o visual code vão sinalizar, e ao entrar no Aplicativo do GitHub ele vai mostrar essa alteração, pra você salvar ela no Computador é preciso ir no SUMARY, criar um titulo pra atualização e clicar em COMMIT, assim você atualiza o repositório LOCAL
+
+Para atualizar o repositório REMOTO, você precisa ir simplesmente no botão PUSH IN para mandar sua atualização para o GitHub online.
+
+
+Se você quiser criar um repositório que não exista ainda uma pasta, basta você simplesmente ir em new repositório e escrever o novo que você quer com as configurações padrões pra todos repositórios, mandando pra pasta que desejar que ele fique, ou local.
+
+Se você errar na hora de deixar ou não seu repositório privado ou publico, basta ir no repositório dentro do GitHub online, ir em SETTINGS e rolar até embaixo aonde mostra pra deixar o repositório VISIVEL, coloque sua senha e pronto
+
+
+Pra você apagar um repositório que você não quer mais:
+
+No local você tem que ir no GitHub, selecionar o que você quer apagar, ir em REPOSITORY e REMOVE, pronto 
+
+No remoto você tem que ir no GitHub online, selecionar o repositório e ir em SETTINGS, rolar até o final da tela e clicar em DELETAR REPOSITORIO.
+
+você precisa excluir das duas formas pra realmente excluir o repositório.
+
+
+
+------Capitulo 18 aula 6-------
+
+PARA POSTAR SEU SITE PELO GITHUB
+
+Primeiro você vai criar um novo repositório, o nome é bom ficar atento já que vai virar o nome do site (mas ainda vamos ver se da pra fazer domínio personalizado) a descrição pode tacar o fds e as outras opções pode ignorar.
+
+Depois disso você coloca todos os arquivos do seu site em um lugar só (já que ele não aceita pastas) na hora de organizar você lembra disso mas quando estiver fazendo o site deixa separado direitinho.
+
+Após você juntar todos os arquivos, você manda para o GitHub através do UPLOAD e pronto (LEMBRAR DE QUE È PRECISO TER UM ARQUIVO CHAMADO HTML INDEX PARA FUNCIONAR NO GITHUB)
+
+Você vai em SETTING e PAGES, coloca o negocio que ta como NONE troca para MAIN e ROOT, após isso SALVA e espera o site ser gerado
+
+
+
