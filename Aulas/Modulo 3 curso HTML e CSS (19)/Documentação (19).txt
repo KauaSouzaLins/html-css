@@ -3,3 +3,40 @@ Documentação (19)
 Modulo 3 curso HTML e CSS
 
 ------Capitulo 19 aula 1-------
+
+Baixando imagens do capitulo
+
+
+
+------Capitulo 19 aula 2-------
+
+Para colocar uma imagem dentro de uma DIV, basta usar o BACKGROUND-IMAGE e usar o URL(''), lembrar das suas aspas, após isso basta colocar o caminho da imagem
+
+Hoje em dia dentro do URL você pode puxar a imagem direto, o caminho dela
+
+
+Quando uma imagem é muito MENOR que sua DIV ela cria um jogo da velha e vai repetindo essa imagem
+
+Já quando a imagem é muito MAIOR que sua DIV, ela vai aparecer só uma parte da imagem
+
+Uma boa dica é fazer uma imagem pequena mas que pode ser repetida varias vezes.
+
+
+
+------Capitulo 19 aula 3-------
+
+Também é possível você pegar a URL de uma imagem que está no google, mas você fica refém daquela imagem estar no ar e também tem que tomar cuidado com DIREITOS AUTORAIS
+
+É possível também delimitar o tamanho dessas imagens, com BACKGROUND-SIZE: ai você coloca tipo 100px 100px
+
+O tamanho é fixo, ou seja, se você diminuir o tamanho da TELA, não muda o tamanho do FUNDO
+
+
+E para configurar a REPETIÇÂO do fundo, basta usar o BACKGROUND-REPEAT.
+
+Tem como fazer ele não repetir (se a imagem for do tamanho certo)
+
+tem como fazer ele repetir so pra um eixo X ou Y
+
+PARTINDO SEMPRE DO CANTO SUPERIOR ESQUERDO(é mutável)
+
