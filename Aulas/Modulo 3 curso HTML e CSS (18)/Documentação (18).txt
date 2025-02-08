@@ -82,5 +82,89 @@ Após você juntar todos os arquivos, você manda para o GitHub através do UPLO
 
 Você vai em SETTING e PAGES, coloca o negocio que ta como NONE troca para MAIN e ROOT, após isso SALVA e espera o site ser gerado
 
+-Se você criar um README enquanto cria seu site, ele vai abrir o README e não o site index em si.-
+
+
+Se você acessar o site WWW.QR-CODE-GENERATOR.com e colocar o link do seu site, da pra você criar um QR CODE do seu site e pronto
+
+
+Uma limitação grande do GITHUB PAGES é que ele só funciona para site em HTML CSS e JAVASCRIPT, outros códigos ele não suporta
+
+
+
+------Capitulo 18 aula 7-------
+
+Manutenção de sites subidos no GITHUB
+
+Agora você sempre começa abrindo o GitHub para salvar seus bagulhos
+
+Não é muito certo você mexer no BRANCH com a opção master, no curso do Guanabara de GITHUB ele ensina melhor disso
+
+
+Se você colocar um MARGIN em um elemento dentro de outro, pode dar erro na visão dele por outras mídias quando você postar ele, então fique atento e troque por PADDING
+
+
+
+------Capitulo 18 aula 8-------
+
+Parte Social do GITHUB
+
+Essa parte você acessa pela barra de pesquisa la em cima, você pode pesquisar códigos usuários e problemas, bastando escrever o nome do que você procura e usar a barra do lado com opções pra achar o que você quer em especificio. Um código, um usuário, um problema
+
+Tem a opção de dar estrelas, isso é a mesma coisa de seguir alguém, so que no caso seria uma opção pra repositórios
+
+Também tem como colocar se você quer ser notificado por aquela pessoa ou não
+
+
+Se você adicionar /EXPLORER na pagina do GitHub, da pra você entrar no modo explorar onde aparece os tópicos do momentos, trendings, coleções...
+
+No trending mesmo da pra pesquisar os mais famosos do repositórios e desenvolvedores, com opção de procurar até por idioma
+
+
+Também da pra procurar problemas, tipo você ir em um dos repositórios do Guanabara e citar um problema em certa matéria e ver também se alguém já resolveu
+
+E por ultimo tem como você colocar um "STATUS" que fica embaixo do seu nome dizendo algo
+
+
+
+------Capitulo 18 aula 9-------
+
+Clonar repositórios
+
+Para clonar um repositório online, mesmo sendo seu (no caso de você estar em outro computador), basta você ir no repositório e ir em CODE, onde vai ter a opção de você baixar o arquivo zip pra você mexer manualmente nos arquivos, ou você abrir direto pelo GITHUB DESKTOP (que é o recomendado)
+
+Depois ele vai aparecer no GITHUB DESKTOP, você vai escolher a pasta que você quer que ele vá (recomendando criar uma pasta pra esses repositorios de outras pessoas) e você vai clicar em CLONAR, pronto, pode abrir no visual code e na pasta
+
+
+
+------Capitulo 18 aula 10-------
+
+PASSO A PASSO de trabalhar com GITHUB em outros PCs
+
+primeiro você precisa no outro computador ter o VISUAL STUDIO, um NAVEGADOR, O GIT instalado e o GITHUB DESKTOP
+
+Após isso você vai logar sua conta no GITHUB DESKTOP(Antes de sequer tentar clonar os seus arquivos, vai em FILE, OPTIONS, e GIT, clica em todas caixas de texto e depois SALVA pra não dar erro.)
+
+Depois você pode selecionar o repositório dentro do seu GITHUB DESKTOP que você quer CLONAR e vai aparecer o botão pra você fazer isso, onde é melhor você criar uma pasta diferente pra quando for clonar isso em outro PC.
+
+Em seguida você já vai poder usar o Repositorio clonado, acessar o Visual Studio com ele e tals, nisso se você fizer qualquer alteração nele, você vai poder ver no GitHub Desktop e vai poder dar COMIT para salvar as alterações(se não forem feitos o passo 2 do parêntese pode dar erro aqui) E depois você clica simplesmente em PUSH IT pra ir pro GITHUB ONLINE
+
+
+Para NÃO deixar RASTROS
+
+primeiro você sai de tudo em que os arquivos estiverem abertos (MENOS O GITHUB DESKTOP)
+
+Depois você vai em REPOSITORY e REMOVE, você vai clicar para EXCLUIR DA LIXEIRA TAMBÉM e depois vai clicar em ok
+
+Além disso você vai ter que ir em FILES, OPTIONS e na sua conta dar SIGH OUT
+
+Em seguida ir em GIT e apagar o seu nome e email, após isso clica em SAVE
+
+E por ultimo ESVAZIA a LIXEIRA
+
+
+ULTIMA DICA
+
+Assistir vídeo do Guanabara de como deixar seu GITHUB mais SEGURO, é demorado mas é uma boa forma de deixar seguro e impedir que qualquer um roube suas informações e senhas. 
 
 
