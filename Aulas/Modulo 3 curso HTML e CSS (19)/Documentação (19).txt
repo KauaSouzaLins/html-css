@@ -40,3 +40,12 @@ tem como fazer ele repetir so pra um eixo X ou Y
 
 PARTINDO SEMPRE DO CANTO SUPERIOR ESQUERDO(é mutável)
 
+
+
+------Capitulo 19 aula 4-------
+
+Se você escrever para qualquer tag que você for colocar um monte o nome dela e depois .NOMEDACLASSE você cria uma tag com CLASSE já, isso vale para ID e também ID + CLASSE
+
+DIV*3.CLASS
+
+DIV*5.CLASS#ID
